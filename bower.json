@@ -1,0 +1,23 @@
+{
+  "name": "hca-project",
+  "version": "1.0.0",
+  "authors": [
+    "Tyler Fletcher"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor"
+  ],
+  "description": "HCA Project",
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3"
+  },
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ]
+}
