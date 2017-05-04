@@ -4,7 +4,6 @@
   "authors": [
     "Tyler Fletcher"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

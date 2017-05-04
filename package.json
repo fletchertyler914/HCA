@@ -18,7 +18,6 @@
     "less-plugin-glob": "^1.1.0"
   },
   "author": "Tyler Fletcher",
-  "license": "ISC",
   "keywords": [
     "gulp",
     "browsersync",
