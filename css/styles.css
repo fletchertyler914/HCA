@@ -1,41 +1,8 @@
-/* Custom Styles */
-html, body {
+/* Set Page Height  */
+html {
     height: 100%; !important;
-    overflow: hidden;
     position: relative;
-    background-color: #000 !important;
-    color: #fff;
 }
-
-.carousel .slide, .slide, .carousel-inner {
-    height: 100% !important;
-}
-
-.quoteName {
-    font-style: italic;
-    font-size: 1.2rem;
-}
-
-.welcomeFont {
-
-}
-
-.about {
-    background-color: transparent !important;
-}
-
-.abbrivatied {
-    display: none !important;
-}
-.full {
-    display: block !important;
-}
-
-/* End Custom Styles */
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 body {
     position: absolute;
@@ -43,8 +10,69 @@ body {
     bottom: 0;
     left: 0;
     right: 0px;
-    overflow-y: scroll;
+    padding-top: 50px !important;
+    background-color: #000 !important;
+    color: #fff;
+
 }
+
+.carousel .slide, .slide, .carousel-inner {
+    height: 100% !important;
+}
+
+.italics {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.about {
+    background-color: transparent !important;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center !important;
+    height: 250px !important;
+    margin: 0 auto;
+}
+
+.contact-container {
+    height: 50px;
+    width: 50px;
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+.contact-container:hover {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.glyphicon-earphone {
+    line-height: 1.8;
+    font-size: 25px;
+    color: #fff !important;
+}
+
+.glyphicon-envelope {
+    font-size: 25px;
+    line-height: 1.8;
+    color: #fff !important;
+}
+
+.abbrivatied {
+    display: none !important;
+}
+
+.full {
+    display: block !important;
+}
+
+/* End Custom Styles */
 
 
 /* CUSTOMIZE THE NAVBAR

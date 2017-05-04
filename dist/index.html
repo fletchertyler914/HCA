@@ -1,242 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="hca-project">
-    <meta name="author" content="Tyler Fletcher">
-    <link rel="icon" href="img/favicon.ico">
+    <head>
+        <!-- Site Defaults -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="hca-project">
+        <meta name="author" content="Tyler Fletcher">
 
-    <title>HCA Bootstrap Project</title>
+        <!-- Page Title -->
+        <title>HCA Bootstrap Project</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/styles.min.css">
-    
-</head>
-<body>
-    <!-- Begin Navigation Bar -->
-    <div class="navbar-wrapper">
-        <div class="navbar-wrapper-container">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-            <nav class="navbar navbar-static-top">
-                <div class="navbar-container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                         </button>
-                        <a class="navbar-brand" href="#">#LiveInTheMoment</a>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.min.css">
+
+        <!-- Custom Compiled LESS -->
+        <link rel="stylesheet" href="css/main.min.css">
+
+    </head>
+    <body>
+        <!-- Begin Navigation Bar Wrapper-->
+        <div class="navbar-wrapper">
+            <!-- Begin Navigation Bar Wrapper Container -->
+            <div class="navbar-wrapper-container">
+                <!-- Begin Navigation Bar -->
+                <nav class="navbar navbar-static-top">
+                    <!-- Begin Navigation Bar Container-->
+                    <div class="navbar-container">
+
+                        <!-- Begin Navigation Bar Header-->
+                        <div class="navbar-header">
+
+                            <!-- Begin Mobile Navigation Bar -->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- End Mobile Navigation Bar -->
+
+                            <!-- Navigation Bar Logo -->
+                            <a class="navbar-brand" href="#">#LiveInTheMoment</a>
+
+                        </div>
+                        <!-- End Navigation Bar Header -->
+
+                        <!-- Begin Full Navigation Bar -->
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <!-- Begin Full Navigation Bar List -->
+                            <ul class="nav navbar-nav">
+                                <!-- Navigation Bar List Items -->
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                            <!-- End Full Navigation Bar List -->
+                        </div>
+                        <!-- End Full Navigation Bar -->
+
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
+                    <!-- End Navigation Bar Container-->
+                </nav>
+                <!-- End Navigation Bar-->
+            </div>
+            <!-- End Navigation Bar Wrapper Container -->
+        </div>
+        <!-- End Navigation Bar Wrapper -->
+
+        <!-- Begin Carousel Container -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Begin Inner Carousel Container -->
+            <div class="carousel-inner" role="listbox">
+                <!-- Begin Carousel Item -->
+                <div class="first item active">
+                    <!-- Begin Carousel Item Container -->
+                    <div class="container">
+                        <!-- Begin Carousel Item Caption -->
+                        <div class="carousel-caption">
+                            <!-- Carousel Item Details -->
+                            <h1><span class="welcomeFont">Welcome to</span><span class="full">#LiveInTheMoment.</span><span class="abbrivatied">#L.I.T.M.</span></h1>
+                            <h5><span class="abbrivatied italics">(Live In The Moment)</span></h5>
+                            <p>“The past is behind, learn from it. <br>The future is ahead, prepare for it. <br>The present is here, live it.”<br><span class="italics">-Thomas S. Monson</span></p>
+                        </div>
+                        <!-- End Carousel Item Caption -->
                     </div>
+                    <!-- End Carousel Item Container -->
                 </div>
-            </nav>
-
-        </div>
-    </div>
-    <!-- End Navigation Bar -->
-
-
-
-    <!-- Begin Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner" role="listbox">
-            <div class="first item active">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1><span class="welcomeFont">Welcome to</span><span class="full">#LiveInTheMoment.</span><span class="abbrivatied">#L.I.T.M.</span></h1>
-                        <h5><span class="abbrivatied quoteName">(Live In The Moment)</span></h5>
-                        <p>“The past is behind, learn from it. <br>The future is ahead, prepare for it. <br>The present is here, live it.”<br><span class="quoteName">-Thomas S. Monson</span></p>
+                <!-- End Carousel Item -->
+                <!-- Begin Carousel Item -->
+                <div class="second item">
+                    <!-- Begin Carousel Item Container -->
+                    <div class="container">
+                        <!-- Begin Carousel Item Caption -->
+                        <div class="carousel-caption">
+                            <!-- Carousel Item Details -->
+                            <h1><span class="full">#LiveForTheMoment.</span><span class="abbrivatied">#L.F.T.M.</span></h1>
+                            <h5><span class="abbrivatied italics">(Live For The Moment)</span></h5>
+                            <p>“There is one thing the photograph must contain, <br>the humanity of the moment.”<br><span class="italics">-Robert Frank</span></p>
+                        </div>
+                        <!-- End Carousel Item Caption -->
                     </div>
+                    <!-- End Carousel Item Container -->
                 </div>
-            </div>
-            <div class="second item">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1><span class="full">#LiveForTheMoment.</span><span class="abbrivatied">#L.F.T.M.</span></h1>
-                        <h5><span class="abbrivatied quoteName">(Live For The Moment)</span></h5>
-                        <p>“There is one thing the photograph must contain, <br>the humanity of the moment.”<br><span class="quoteName">-Robert Frank</span></p>
+                <!-- End Carousel Item -->
+                <!-- Begin Carousel Item -->
+                <div class="third item">
+                    <!-- Begin Carousel Item Container -->
+                    <div class="container">
+                        <!-- Begin Carousel Item Caption -->
+                        <div class="carousel-caption">
+                            <!-- Carousel Item Details -->
+                            <h1><span class="full">#LiveByTheMoment.</span><span class="abbrivatied">#L.B.T.M.</span></h1>
+                            <h5><span class="abbrivatied italics">(Live By The Moment)</span></h5>
+                            <p>“Taking an image, freezing a moment, <br>reveals how rich reality truly is.”<br><span class="italics">-Anonymous</span></p>
+                        </div>
+                        <!-- End Carousel Item Caption -->
                     </div>
+                    <!-- End Carousel Item Container -->
                 </div>
+                <!-- End Carousel Item -->
             </div>
-            <div class="third item">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1><span class="full">#LiveByTheMoment.</span><span class="abbrivatied">#L.B.T.M.</span></h1>
-                        <h5><span class="abbrivatied quoteName">(Live By The Moment)</span></h5>
-                        <p>“Taking an image, freezing a moment, <br>reveals how rich reality truly is.”<br><span class="quoteName">-Anonymous</span></p>
+            <!-- End Inner Carousel Container -->
+
+            <!-- Begin Carousel Left Control -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <!-- Left Arrow Glyphicon -->
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- End Carousel Left Control -->
+
+            <!-- Begin Carousel Right Control -->
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <!-- Right Arrow Glyphicon -->
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!-- End Carousel Right Control -->
+
+        </div>
+        <!-- End Carousel Container -->
+
+        <!-- Carousel/About Section Devider -->
+        <div class="carousel-divider" id="about"></div>
+
+        <!-- Begin About Container -->
+        <!-- Wrap The Rest Of The Page In Another Container To Center All The Content. -->
+        <div class="container about">
+
+            <!-- Begin About Row -->
+            <div class="row">
+
+                <!-- Begin About Collumn -->
+                <div class="col-md-4">
+                    <!-- About Me Portrait -->
+                    <img class="img-rounded img-responsive center-block" src="img/tyler.jpg">
+                    <!-- About Me Details -->
+                    <h2>Tyler</h2>
+                    <p>Yepp. That's me! I have recently picked up photography as a new hobby and have grown to love it. Most of my captured moments are of people in my life, so that's what you will see the most of here!</p>
+                </div>
+                <!-- End About Collumn -->
+
+                <!-- Begin About Collumn -->
+                <div class="col-md-4">
+                    <!-- About Me Portrait -->
+                    <img class="img-rounded img-responsive center-block" src="img/carley.jpg">
+                    <!-- About Me Details -->
+                    <h2>Carley</h2>
+                    <p>Carley (My Wife) is the secondary subject in most of the moments I capture. She put's up with an unwanted camera in her face most day's, but I still manage to capture a good moment every now and then.</p>
+                </div>
+                <!-- End About Collumn -->
+
+                <!-- Begin About Collumn -->
+                <div class="col-md-4">
+                    <!-- About Me Portrait -->
+                    <img class="img-rounded img-responsive center-block" src="img/nia.jpg">
+                    <!-- About Me Details -->
+                    <h2>Nia</h2>
+                    <p>Nia Rose is the primary subject in most of the moments I capture. She just loves being the focal point, so she is the leading factor in honing my epic moment-capturing skills.</p>
+                </div>
+                <!-- End About Collumn -->
+
+            </div>
+            <!-- End About Row -->
+
+            <!-- Begin Featuretts -->
+            <!-- Featurette Divider -->
+            <hr class="featurette-divider">
+
+            <!-- Begin Featurette Row -->
+            <div class="row featurette">
+
+                <!-- Begin Featurette Column -->
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Barefoot.<span class="text-muted">Fountain Park.</span></h2>
+                    <p class="lead">Black And White Moment At A Fountain Park In Channelside, Florida.</p>
+                </div>
+                <!-- End Featurette Column -->
+
+                <!-- Begin Featurette Column -->
+                <div class="col-md-5">
+                    <!-- Featurette Image -->
+                    <img class="featurette-image img-responsive center-block" src="img/foot.jpg" alt="Foot and Water Fountain">
+                </div>
+                <!-- End Featurette Column -->
+
+            </div>
+            <!-- End Featurette Row -->
+
+            <!-- Featurette Divider -->
+            <hr class="featurette-divider">
+
+            <!-- Begin Featurette Row -->
+            <div class="row featurette">
+                <!-- Begin Featurette Column -->
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading">Pink Azalea.<span class="text-muted">Gulf Coast.</span></h2>
+                    <p class="lead">Vibrant Moment With This Pink Azalea In St. Petersburg, Florida.</p>
+                </div>
+                <!-- ENd Featurette Column -->
+
+                <!-- Begin Featurette Column -->
+                <div class="col-md-5 col-md-pull-7">
+                    <!-- Featurette Image -->
+                    <img class="featurette-image img-responsive center-block" src="img/flower.jpg" alt="Pink Azalea">
+                </div>
+                <!-- End Featurette Column -->
+
+            </div>
+            <!-- Begin Featurette Row -->
+
+            <!-- Featurette Divider -->
+            <hr class="featurette-divider">
+
+            <!-- Begin Featurette Row -->
+            <div class="row featurette">
+                <!-- Begin Featurette Column -->
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Nia Rose.<span class="text-muted">Ybor Trolley.</span></h2>
+                    <p class="lead">Black and White Moment On The Trolley In Ybor City.</p>
+                </div>
+                <!-- End Featurette Column -->
+
+                <!-- Begin Featurette Column -->
+                <div class="col-md-5">
+                    <!-- Featurette Image -->
+                    <img class="featurette-image img-responsive center-block" src="img/nia3.jpg" alt="Nia On The Trolley">
+                </div>
+                <!-- End Featurette Column -->
+
+            </div>
+            <!-- Begin Featurette Row -->
+
+            <!-- Featurette Divider -->
+            <hr class="featurette-divider">
+            <!-- End Featuretts -->
+
+            <aside class="contact" id="contact">
+                <h2><u>Contact Me.</u></h2>
+                <a href="tel:+16151234567">
+                    <div class="contact-container">
+                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                     </div>
-                </div>
-            </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- End Carousel -->
+                </a>
+                <br>
+                <a href="mailTo:hello@tylerjfletcher.com">
+                    <div class="contact-container">
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    </div>
+                </a>
+            </aside>
 
-    <!-- Begin Carousel/About Section Devider -->
-    <!-- This is for leaving space at the top of the section on navigation -->
-    <div class="carousel-divider" id="about"></div>
-    <!-- End Carousel/About Section Devider -->
-
-
-    <!-- Begin About Container -->
-    <!-- Wrap The Rest Of The Page In Another Container To Center All The Content. -->
-    <div class="container about">
-
-        <!-- Begin About Row -->
-        <div class="row">
-            
-            <!-- Begin About Collumn -->
-            <div class="col-md-4">
-                <!-- About Me Portrait -->
-                <img class="img-rounded img-responsive center-block" src="img/tyler.jpg">
-                <!-- About Me Details -->
-                <h2>Tyler</h2>
-                <p>Yepp. That's me! I have recently picked up photography as a new hobby and have grown to love it. Most of my captured moments are of people in my life, so that's what you will see the most of here!</p>
-            </div>
-            <!-- End About Collumn -->
-            
-            <!-- Begin About Collumn -->
-            <div class="col-md-4">
-                <!-- About Me Portrait -->
-                <img class="img-rounded img-responsive center-block" src="img/carley.jpg">
-                <!-- About Me Details -->
-                <h2>Carley</h2>
-                <p>Carley (My Wife) is the secondary subject in most of the moments I capture. She put's up with an unwanted camera in her face most day's, but I still manage to capture a good moment every now and then.</p>
-            </div>
-            <!-- End About Collumn -->
-            
-            <!-- Begin About Collumn -->
-            <div class="col-md-4">
-                <!-- About Me Portrait -->
-                <img class="img-rounded img-responsive center-block" src="img/nia.jpg">
-                <!-- About Me Details -->
-                <h2>Nia</h2>
-                <p>Nia Rose is the primary subject in most of the moments I capture. She just loves being the focal point, so she is the leading factor in honing my epic moment-capturing skills.</p>
-            </div>
-            <!-- End About Collumn -->
+            <!-- Begin Footer -->
+            <footer>
+                <p class="pull-right"><a href="#myCarousel">Back to top</a></p>
+                <p>&copy; 2017 Company, Inc. &#x2022; 123. Main St. &#x2022; (615) 123-4567</p>
+            </footer>
+            <!-- End Footer -->
 
         </div>
-        <!-- End About Row -->
-
-        <!-- Begin Featuretts -->
-        <!-- Featurette Divider -->
-        <hr class="featurette-divider">
-        
-        <!-- Begin Featurette Row -->
-        <div class="row featurette">
-            
-            <!-- Begin Featurette Column -->
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Barefoot.<span class="text-muted">Fountain Park.</span></h2>
-                <p class="lead">A Black And White Moment At A Fountain Park In Channelside, Florida.</p>
-            </div>
-            <!-- End Featurette Column -->
-            
-            <!-- Begin Featurette Column -->
-            <div class="col-md-5">
-                <!-- Featurette Image -->
-                <img class="featurette-image img-responsive center-block" src="img/foot.jpg" alt="Generic placeholder image">
-            </div>
-            <!-- End Featurette Column -->
-            
-        </div>
-        <!-- End Featurette Row -->
-        
-        <!-- Featurette Divider -->
-        <hr class="featurette-divider">
-        
-        <!-- Begin Featurette Row -->
-        <div class="row featurette">
-            <!-- Begin Featurette Column -->
-            <div class="col-md-7 col-md-push-5">
-                <h2 class="featurette-heading">Pink Azalea.<span class="text-muted">Gulf Coast.</span></h2>
-                <p class="lead">A Very Vibrant Moment With This Pink Azalea In St. Petersburg, Florida.</p>
-            </div>
-            <!-- ENd Featurette Column -->
-            
-            <!-- Begin Featurette Column -->
-            <div class="col-md-5 col-md-pull-7">
-                <!-- Featurette Image -->
-                <img class="featurette-image img-responsive center-block" src="img/flower.jpg" alt="Generic placeholder image">
-            </div>
-            <!-- End Featurette Column -->
-            
-        </div>
-        <!-- Begin Featurette Row -->
-        
-        <!-- Featurette Divider -->
-        <hr class="featurette-divider">
-        
-        <!-- Begin Featurette Row -->
-        <div class="row featurette">
-            <!-- Begin Featurette Column -->
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Nia Rose.<span class="text-muted">Ybor Trolley.</span></h2>
-                <p class="lead">Black and White Moment On The Trolley In Ybor City.</p>
-            </div>
-            <!-- End Featurette Column -->
-            
-            <!-- Begin Featurette Column -->
-            <div class="col-md-5">
-                <!-- Featurette Image -->
-                <img class="featurette-image img-responsive center-block" src="img/nia3.jpg" alt="Generic placeholder image">
-            </div>
-            <!-- End Featurette Column -->
-            
-        </div>
-        <!-- Begin Featurette Row -->
-        
-        <!-- Featurette Divider -->
-        <hr class="featurette-divider">
-        <!-- End Featuretts -->
-
-        <!-- Begin Footer -->
-        <footer>
-            <p>&copy; 2017 Company, Inc. &middot;</p>
-            <p class="pull-right"><a href="#myCarousel">Back to top</a></p>
-        </footer>
-        <!-- End Footer -->
-
-    </div>
-    <!-- End About Container -->
+        <!-- End About Container -->
 
 
-    <!-- Begin Bootstrap Core JavaScript -->
-    <!-- Placed At The End Of The Document So The Pages Load Faster -->
-    <script src="js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script> 
-    <script src="js/modernizr.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <!-- End Bootstrap Core JavaScript -->
+        <!-- Begin Bootstrap Core JavaScript -->
+        <!-- Placed At The End Of The Document So The Pages Load Faster -->
+        <script src="js/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/main.min.js"></script>
+        <!-- End Bootstrap Core JavaScript -->
 
-</body>
+    </body>
 
 </html>

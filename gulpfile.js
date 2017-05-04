@@ -10,7 +10,7 @@ var less = require('gulp-less'); // LESS Preprocessing
 var lessGlobPlugin = require('less-plugin-glob'); // LESS Globs (file @import statements)
 var browserSync = require('browser-sync').create(); // Browser Sync Webserver
 var plumber = require('gulp-plumber'); // Error Handling
-var cleanCSS = require('gulp-clean-css');
+var cleanCSS = require('gulp-clean-css'); // Updated plugin to minify CSS
 
 /* Default Task */
 gulp.task('default', ['jshint', 'html', 'css', 'scripts', 'less', 'fonts', 'img', 'watch', 'webserver']);
@@ -101,8 +101,9 @@ gulp.task('browsersync-reload', function () {
 
 /* Watch Tasks */
 gulp.task('watch', function() {
-  gulp.watch('js/*.js', ['jshint', 'scripts']); // Watch JavaScript
-  gulp.watch('less/**/*.less', ['less']); // Watch LESS
-  gulp.watch("*.html", ['browsersync-reload']); // Watch HTML
+    gulp.watch('js/*.js', ['jshint', 'scripts', 'browsersync-reload']); // Watch JavaScript
+    gulp.watch('less/**/*.less', ['less', 'browsersync-reload']); // Watch LESS
+    gulp.watch("*.html", ['html', 'browsersync-reload']); // Watch HTML
+    gulp.watch("css/*.css", ['css', 'browsersync-reload']); // Watch CSS
 });
 
